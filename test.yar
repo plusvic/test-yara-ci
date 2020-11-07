@@ -15,3 +15,4 @@ rule test_3 {
   condition:
      all of them
 }
+
