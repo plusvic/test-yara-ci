@@ -22,4 +22,3 @@ rule test_4 {
   condition:
      all of them
 }
-
