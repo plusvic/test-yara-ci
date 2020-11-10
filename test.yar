@@ -9,7 +9,7 @@ rule test_2 {
      all of them
 }
 
-rules test_3 {
+rule test_3 {
   strings:
      $ = "foobarbazquux"
   condition:
@@ -18,7 +18,7 @@ rules test_3 {
 
 rule test_4 {
   strings:
-     $ = "quux"
+     $ = { 00 00 00 00 00 }
   condition:
      all of them
 }
