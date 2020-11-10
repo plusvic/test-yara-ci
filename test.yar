@@ -9,7 +9,7 @@ rule test_2 {
      all of them
 }
 
-rule test_3 {
+rules test_3 {
   strings:
      $ = "foobarbazquux"
   condition:
